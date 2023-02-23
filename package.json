@@ -60,6 +60,7 @@
     "build": "turbo run build",
     "lint": "eslint --ignore-path .eslintignore --ext .js,.ts,.tsx .",
     "prettier": "prettier",
+    "prepare": "npm run build",
     "jest": "jest",
     "test": "turbo run test",
     "test:integration": "NODE_ENV=test jest --runInBand --bail --config=integration-tests/jest.config.js",

@@ -14,8 +14,7 @@
     "test": {
       "dependsOn": [
         "build"
-      ],
-      "outputs": []
+      ]
     }
   },
   "globalDependencies": [
